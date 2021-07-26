@@ -43,6 +43,12 @@ body {
   margin: auto;
 }
 
+@media (max-width: 37.5em) {
+  body {
+    padding: 0 1em;
+  }
+}
+
 img {
   max-width: 100%;
 }
@@ -284,6 +290,13 @@ header p {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-column-gap: 30px;
   grid-row-gap: 24px;
+}
+
+@media (max-width: 37.5em) {
+  .main,
+  .overview {
+    grid-template-columns: 1fr;
+  }
 }
 
 .today {
